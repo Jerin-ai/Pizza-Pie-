@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .menu-item {
+            background-color: #fff;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .menu-item-content {
+            padding: 20px;
+        }
+        .menu-item h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .menu-item p {
+            color: #666;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            color: #c0392b;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Pizza Menu</h1>
+        <div class="menu-item">
+            <img src="margretia.jpg" alt="Pizza 1">
+            <div class="menu-item-content">
+                <h2>Margherita Pizza</h2>
+                <p>A classic pizza topped with tomato sauce, mozzarella cheese, and fresh basil.</p>
+                <p class="price">$9.99</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="Pepperoni Pizza.jpg" alt="Pizza 2">
+            <div class="menu-item-content">
+                <h2>Pepperoni Pizza</h2>
+                <p>A delicious pizza topped with tomato sauce, mozzarella cheese, and pepperoni slices.</p>
+                <p class="price">$11.99</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="Hawaiian Pizza.jpg" alt="Pizza 3">
+            <div class="menu-item-content">
+                <h2>Hawaiian Pizza</h2>
+                <p>A tropical pizza topped with tomato sauce, mozzarella cheese, ham, and pineapple.</p>
+                <p class="price">$10.99</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

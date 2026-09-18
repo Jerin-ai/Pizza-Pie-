@@ -1,0 +1,7 @@
+FONTS:
+
+- Arvo by Anton Koovit: http://www.fontsquirrel.com/fonts/arvo
+
+- Roboto by Christian Robertson:http://www.fontsquirrel.com/fonts/roboto
+
+- Seaside Resort by Nick's Fonts: http://www.fontsquirrel.com/fonts/seasideresortnf
